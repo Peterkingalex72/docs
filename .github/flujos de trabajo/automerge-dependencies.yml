@@ -82,5 +82,5 @@ jobs:
               console.log('Locked the pull request to prevent spam!')
             } catch (error) {
               console.error(`Failed to lock the pull request. Error: ${error}`)
-              throw error
-            }
+              throw error 
+            } 
